@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Main Page{% endblock %}
+
+{% block content %}
+<h1>Main page</h1>
+{% load static %}
+<img src="{% static 'images\django_unchained-1425226916.jpg' %}" alt="Description of the image">
+<p>Описание картинки: Здесь можно добавить описание картинки.</p>
+<p></p>
+{% endblock %}
+

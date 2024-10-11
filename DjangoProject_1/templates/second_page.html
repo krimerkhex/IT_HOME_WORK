@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Second Page{% endblock %}
+
+{% block content %}
+<h1>Second Page</h1>
+{% load static %}
+<img src="{% static 'images/django_unchained_1-3889209240.jpg' %}" alt="Description of the image">
+<p>Описание картинки: Здесь можно добавить описание картинки.</p>
+<p></p>
+{% endblock %}
